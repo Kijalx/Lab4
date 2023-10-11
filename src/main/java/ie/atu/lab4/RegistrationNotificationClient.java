@@ -9,5 +9,4 @@ public interface RegistrationNotificationClient {
 
     @PostMapping("/notification")
     String someDetails(@RequestBody UserDetails userDetails);
-
 }
